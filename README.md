@@ -12,3 +12,5 @@ curl -X POST -H "Content-Type: application/json" \
 curl -X POST -H "Content-Type: application/json" \
     'http://hassio:8080/v1/register/+61234567890/verify/123-456'
 ```
+
+After the initial verification, you should be able to use `http://127.0.0.1:8080` in your Home Assistant configuration for Signal.
