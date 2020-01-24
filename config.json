@@ -4,6 +4,7 @@
   "slug": "signal_messenger",
   "description": "A REST API for Signal Messenger, to be used in the Home Assistant notify platform",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "url": "https://github.com/wfriesen/signal-hassio",
   "startup": "before",
   "boot": "auto",
   "options": {},
